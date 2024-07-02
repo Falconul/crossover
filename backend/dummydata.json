@@ -1,0 +1,78 @@
+{ "restaurants" : 
+     [
+    {"id": 1,
+    "name": "burger restaurant",
+    "city_name" : 1,
+    "img_url": "https://www.studocu.com/blog/wp-content/uploads/2020/10/StuDocu-Burger-scaled.jpg",
+    "comments" :[{
+        "id": 1,
+        "content" :"It's a nice place"
+    },
+{
+    "id": 2,
+    "content" :"It's a great place"
+}],
+"tags":[{
+    "id" : 1,
+    "name":"American food"
+},
+{
+    "id" : 2,
+    "name":"Burger"
+}]
+}
+    ,
+
+       { "id": 2,
+        "name": "sushi restaurant",
+        "city_id" : 1,
+        "img_url": "https://sushi-berlin.de/assets/img/fotos/sushi-berlin-aussen-edit.jpg",
+        "tags":[{
+            "id" : 1,
+            "name":"Japanese food"
+        },
+        {
+            "id" : 2,
+            "name":"Sushi"
+        }]
+    },
+    {
+        "id": 3,
+        "name": "Italian restaurant",
+        "city_id" : 2,
+        "img_url": "https://www.bluristorante.com/wp-content/uploads/2018/04/DSC4901.jpg",
+        "tags":[{
+            "id" : 1,
+            "name":"Italian food"
+        },
+        {
+            "id" : 2,
+            "name":"Pizza"
+        }]
+    }
+    ]
+    
+}
+
+{
+    "restaurantId": "65994e5cd0f7900765d95128", // Replace with the actual _id of the associated restaurant
+    "commentData": {
+        "id": 1,
+        "content": "Great food and Friendly worker!"
+    }
+}
+{
+    "name": "Italian Restaurant",
+    "city_name": "Dortmund",
+    "img_url": "https://www.bluristorante.com/wp-content/uploads/2018/04/DSC4901.jpg",
+    "tags": [
+        {
+            "id": 5,
+            "name": "Pizza"
+        },
+        {
+            "id": 6,
+            "name": "Italian Food"
+        }
+    ]
+}
